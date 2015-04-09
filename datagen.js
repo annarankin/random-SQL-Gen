@@ -27,8 +27,6 @@ for (var i = 0; i < numberOfLines; i++) {
         randValueArray.push(tempVar);
     }); //end forEach
 
-    //WASTED TIME:
-
     var onlyHeaders = [];
     headersAndTypes.forEach(function(e, index) {
         var headerTypeArr = e.trim().split(" ");
