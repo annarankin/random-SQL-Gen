@@ -2,7 +2,7 @@
 Creates lines of code to seed a database with random varchars &amp; integers using node-sqlite3.
 ##Input:
 To run the program, type
-`$node datagen.js <TABLENAME> <NUMBER OF LINES TO GENERATE> <header1> <datatype (varchar/integer)>, ...`
+`$node datagen.js <TABLENAME> <NUMBER OF LINES TO GENERATE> <header1> <datatype (varchar/integer min max)>, ...`
 
 ###Example:
 
