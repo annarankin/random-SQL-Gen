@@ -7,20 +7,16 @@ To run the program, type
 ###Example:
 
 ```bash
-
-$ node datagen.js table2 5 name varchar, age integer
+$ node datagen.js table2 5 name varchar, age integer 30 40
 
 You asked for 5 line(s) to be generated for table2 containing:
-name varchar, age integer
-db.run("INSERT INTO table2 (name, age) VALUES ('passenger', 64);");
-db.run("INSERT INTO table2 (name, age) VALUES ('lunchroom', 79);");
-db.run("INSERT INTO table2 (name, age) VALUES ('vacation', 17);");
-db.run("INSERT INTO table2 (name, age) VALUES ('eggnog', 14);");
-db.run("INSERT INTO table2 (name, age) VALUES ('verse', 79);");
+name varchar, age integer 30 40
+db.run("INSERT INTO table2 (name, age) VALUES ('rub', 36);");
+db.run("INSERT INTO table2 (name, age) VALUES ('fang', 31);");
+db.run("INSERT INTO table2 (name, age) VALUES ('tomatoes', 38);");
+db.run("INSERT INTO table2 (name, age) VALUES ('talk', 39);");
+db.run("INSERT INTO table2 (name, age) VALUES ('language', 37);");
 DONE
-
-
 ```
 
-
-**Version 1.00000000001, currently no error checking!!**
+Program will throw you an error if you format your data incorrectly.
